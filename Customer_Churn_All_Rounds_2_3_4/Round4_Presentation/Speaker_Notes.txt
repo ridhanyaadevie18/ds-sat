@@ -1,0 +1,38 @@
+ROUND 4 — CUSTOMER CHURN INSIGHT: SPEAKER SCRIPT
+Data caveat: This analysis uses synthetic practice data because the original assessment CSVs were not available. State this clearly; do not present these metrics as actual ConnectSphere results.
+
+Slide 1 — Opening
+Good morning. Our topic is Customer Churn Insight. The goal is to understand patterns associated with customer disengagement and recommend practical retention actions.
+
+Slide 2 — Business problem
+ConnectSphere has customer profile, usage, billing, service and support data. Management needs to know which patterns deserve attention and what action to test. This is a descriptive analysis, not proof of causation.
+
+Slide 3 — Overview
+Our practice dataset has 500 customer records. 215 are labelled churned, giving an observed churn rate of 43.0%; 285 are labelled retained. Average monthly charges are ₹738.29. These are synthetic values for demonstrating the workflow.
+
+Slide 4 — Plan
+The plan with the highest observed churn in this generated sample is Premium, at 43.8%. We should investigate differences in plan fit, price and service experience, rather than assume the plan causes churn.
+
+Slide 5 — Tenure
+The tenure group with the highest observed churn is 0–12 months, at 57.3%. A practical response is to test proactive onboarding and early check-ins.
+
+Slide 6 — Complaints
+The complaint group with the highest observed churn is 2+ complaints, at 57.6%. This supports investigating complaint resolution and follow-up. It does not prove complaints alone cause churn.
+
+Slide 7 — Payment and region
+The payment group with the highest observed churn is 2+ late payments at 52.4%. The region with the highest observed churn is South at 50.7%. These groups need validation with real data, segment sizes and business context.
+
+Slide 8 — Usage
+The usage group with the highest observed churn is <100 GB at 59.6%. Low usage can be a signal to check whether the plan still fits the customer's needs. We should test helpful engagement, not automatically discount.
+
+Slide 9 — Playbook
+We recommend five actions: proactive onboarding, complaint recovery, usage and plan-fit reviews, payment support, and controlled measurement.
+
+Slide 10 — Timeline
+In the first 30 days, validate data and baselines. In days 31 to 60, pilot the interventions. In days 61 to 90, compare outcomes and scale only what works.
+
+Slide 11 — Measurement
+The primary measure is churn rate by targeted segment. We should also track complaint recurrence, satisfaction and cost per retained customer. We do not claim any improvement before running the pilots.
+
+Slide 12 — Close
+The key message is to use data to prioritize, test targeted actions, and measure impact. Before applying these recommendations in a real business, validate the patterns on actual company records. Thank you.

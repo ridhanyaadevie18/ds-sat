@@ -1,0 +1,509 @@
+CustomerID,Plan,Region,TenureMonths,MonthlyUsageGB,Complaints,LatePaymentsLast4,NetworkIssues,MonthlyCharges,PaymentStatus,Churn
+C00001,Basic,West,20,355.4,0,0,0,344.69,On Time,No
+C00002,Standard,East,65,218.8,1,1,1,724.47,On Time,Yes
+C00003,Premium,West,2,203.7,2,1,1,1022.1,On Time,Yes
+C00004,Basic,West,36,258.2,1,2,0,469.37,Late,No
+C00005,Standard,West,63,431.1,0,1,3,668.64,On Time,No
+C00006,Premium,North,53,313.6,2,2,1,973.48,Late,No
+C00007,Basic,South,14,91.3,0,0,3,415.02,On Time,No
+C00008,Premium,North,37,230.3,0,0,2,1138.04,On Time,No
+C00009,Standard,East,26,157.7,0,0,1,683.55,On Time,No
+C00010,Premium,East,26,339.0,0,0,1,1079.93,On Time,No
+C00011,Standard,West,25,172.3,1,1,1,789.54,On Time,Yes
+C00012,Standard,West,56,181.6,4,0,2,635.93,On Time,Yes
+C00013,Standard,North,54,184.0,2,1,0,717.8,On Time,No
+C00014,Premium,South,28,35.0,1,1,1,1005.83,On Time,Yes
+C00015,Basic,South,28,340.8,2,0,0,288.35,On Time,Yes
+C00016,Standard,West,47,248.4,1,1,1,684.08,On Time,Yes
+C00017,Standard,North,63,233.5,3,2,2,603.84,Late,Yes
+C00018,Standard,South,10,,1,0,0,716.86,On Time,Yes
+C00019,Premium,West,43,118.0,0,0,0,1050.22,On Time,No
+C00020,Premium,East,31,349.6,3,2,2,1078.83,Late,Yes
+C00021,Basic,West,52,263.6,1,0,1,398.01,On Time,No
+C00022,Basic,East,36,149.0,0,0,1,416.23,On Time,No
+C00023,Basic,West,64,225.5,1,1,0,406.02,On Time,No
+C00024,Premium,North,18,180.8,1,1,2,1007.15,On Time,No
+C00025,Basic,North,63,421.7,3,1,0,404.76,On Time,Yes
+C00026,Premium,West,6,255.5,2,1,0,1037.67,On Time,Yes
+C00027,Basic,East,56,,1,1,1,366.02,On Time,Yes
+C00028,Basic,East,40,287.4,0,1,3,340.21,On Time,No
+C00029,Standard,West,52,,0,0,1,677.66,On Time,No
+C00030,Premium,East,54,275.0,1,1,1,929.27,On Time,Yes
+C00031,Premium,South,58,196.6,2,1,0,982.56,On Time,Yes
+C00032,Premium,South,39,215.3,1,1,1,934.68,On Time,Yes
+C00033,Standard,North,30,195.8,2,0,2,699.01,On Time,No
+C00034,Standard,South,12,112.4,2,1,2,663.15,On Time,Yes
+C00035,Basic,South,34,,2,1,1,359.54,On Time,No
+C00036,Standard,South,62,195.9,0,1,2,719.41,On Time,Yes
+C00037,Standard,East,56,346.1,0,2,0,630.81,Late,Yes
+C00038,Standard,West,8,187.8,1,1,1,731.44,On Time,No
+C00039,Basic,West,8,,0,0,1,421.99,On Time,No
+C00040,Standard,East,32,220.0,2,1,0,865.94,On Time,No
+C00041,Premium,West,22,160.5,2,2,1,949.51,Late,No
+C00042,Standard,South,35,204.6,1,1,1,681.85,On Time,Yes
+C00043,Basic,West,32,191.6,0,0,1,1633.205,On Time,No
+C00044,Basic,East,25,345.3,2,1,1,427.16,On Time,Yes
+C00045,Basic,South,19,280.1,1,1,0,494.96,On Time,No
+C00046,Basic,West,23,165.8,0,0,0,494.36,On Time,Yes
+C00047,Premium,East,17,40.4,1,0,0,939.11,On Time,No
+C00048,Premium,North,72,268.7,2,1,1,1044.94,On Time,Yes
+C00049,Premium,North,21,373.0,0,1,1,1009.25,On Time,No
+C00050,Basic,West,13,75.9,0,1,0,319.93,On Time,Yes
+C00051,Basic,South,40,366.7,3,0,0,419.42,On Time,No
+C00052,Premium,South,37,217.3,1,1,1,820.15,On Time,Yes
+C00053,Basic,West,21,223.3,1,1,0,429.75,On Time,Yes
+C00054,Standard,West,53,138.2,2,0,1,659.39,On Time,No
+C00055,Basic,East,39,145.4,3,1,0,455.34,On Time,No
+C00056,Premium,West,55,281.3,1,2,2,939.96,Late,Yes
+C00057,Premium,West,22,307.7,0,0,0,950.34,On Time,No
+C00058,Standard,South,56,227.7,0,1,0,575.58,On Time,No
+C00059,Standard,East,10,125.6,0,0,0,692.32,On Time,No
+C00060,Premium,East,44,196.5,1,0,1,944.93,On Time,No
+C00061,Premium,North,56,327.4,3,2,1,1072.78,Late,No
+C00062,Standard,West,37,211.9,1,0,0,704.67,On Time,No
+C00063,Standard,East,27,227.1,0,1,0,685.8,On Time,Yes
+C00064,Basic,West,43,211.5,3,0,0,349.53,On Time,No
+C00065,Premium,North,71,321.8,2,1,0,1089.86,On Time,No
+C00066,Standard,East,12,166.7,0,1,2,812.55,On Time,Yes
+C00067,Basic,East,15,98.3,3,1,5,376.66,On Time,Yes
+C00068,Premium,West,15,301.5,1,1,1,1061.62,On Time,Yes
+C00069,Basic,East,25,136.1,1,0,3,436.36,On Time,No
+C00070,Standard,North,37,238.3,1,0,3,703.61,On Time,No
+C00071,Standard,East,71,318.5,3,0,3,712.55,On Time,Yes
+C00072,Standard,North,52,161.1,2,3,0,693.04,Late,No
+C00073,Standard,East,25,340.2,2,1,0,690.54,On Time,No
+C00074,Standard,West,17,276.2,0,3,0,735.54,Late,No
+C00075,Basic,South,56,191.2,2,2,0,393.78,Late,Yes
+C00076,Premium,South,43,195.4,1,1,0,1270.79,On Time,Yes
+C00077,Basic,South,11,342.6,0,0,3,417.19,On Time,Yes
+C00078,Basic,South,48,222.9,2,1,5,310.06,On Time,Yes
+C00079,Premium,South,33,309.0,0,2,1,1094.3,Late,No
+C00080,Premium,South,16,239.0,0,0,1,1061.34,On Time,No
+C00081,Basic,South,37,204.9,0,1,1,338.3,On Time,Yes
+C00082,Premium,South,71,240.0,2,1,2,1051.28,On Time,No
+C00083,Premium,West,8,318.3,4,1,2,913.51,On Time,Yes
+C00084,Premium,South,58,271.1,0,0,3,1085.36,On Time,Yes
+C00085,Standard,West,41,,0,1,3,676.42,On Time,No
+C00086,Basic,East,65,172.8,1,1,1,366.4,On Time,No
+C00087,Basic,South,46,,0,2,1,365.65,Late,No
+C00088,Premium,West,10,132.4,3,0,2,1084.23,On Time,Yes
+C00089,Premium,East,16,377.2,1,1,1,824.98,On Time,No
+C00090,Basic,East,31,187.8,1,1,1,397.18,On Time,No
+C00091,Standard,South,42,278.8,0,0,1,777.14,On Time,Yes
+C00092,Premium,South,46,169.4,0,0,1,954.79,On Time,Yes
+C00093,Premium,South,61,51.2,0,0,1,880.53,On Time,Yes
+C00094,Basic,North,17,362.3,1,0,0,528.53,On Time,No
+C00095,Standard,West,25,125.3,1,0,2,591.64,On Time,Yes
+C00096,Premium,East,55,447.3,3,2,0,986.9,Late,Yes
+C00097,Premium,North,60,293.0,1,0,1,978.65,On Time,Yes
+C00098,Standard,West,29,271.0,4,1,1,733.93,On Time,No
+C00099,Premium,South,6,269.3,2,1,3,1032.39,On Time,Yes
+C00100,Basic,West,8,195.1,0,1,2,371.4,On Time,No
+C00101,Premium,South,38,232.0,1,0,0,971.34,On Time,No
+C00102,Standard,West,16,216.7,1,2,1,741.64,Late,No
+C00103,Premium,South,23,66.9,1,1,0,876.63,On Time,No
+C00104,Standard,North,34,205.1,1,2,1,617.19,Late,No
+C00105,Standard,East,41,131.5,2,1,0,792.95,On Time,Yes
+C00106,Premium,West,70,295.6,0,1,1,1083.05,On Time,No
+C00107,Standard,North,21,192.3,0,2,2,727.57,Late,No
+C00108,Premium,South,25,244.7,0,0,0,1054.73,On Time,Yes
+C00109,Standard,North,68,216.2,0,0,1,651.2,On Time,No
+C00110,Standard,North,8,212.9,0,0,1,663.3,On Time,No
+C00111,Premium,South,59,190.8,2,1,1,1143.85,On Time,No
+C00112,Premium,North,42,80.7,2,1,3,956.43,On Time,Yes
+C00113,Standard,North,48,206.0,2,1,1,708.86,On Time,No
+C00114,Premium,East,13,,2,0,3,1070.62,On Time,Yes
+C00115,Premium,East,39,151.0,0,0,3,1151.61,On Time,Yes
+C00116,Basic,West,39,219.4,1,1,0,466.95,On Time,Yes
+C00117,Standard,North,20,,2,2,1,726.79,Late,No
+C00118,Basic,West,60,221.3,0,1,0,448.64,On Time,No
+C00119,Premium,North,48,194.6,1,0,0,1062.62,On Time,No
+C00120,Premium,East,68,345.4,2,1,0,927.37,On Time,No
+C00121,Premium,West,18,228.6,1,0,2,1029.64,On Time,No
+C00122,Standard,West,61,185.9,1,0,1,675.45,On Time,Yes
+C00123,Basic,South,61,402.6,1,1,1,412.73,On Time,No
+C00124,Premium,South,8,241.2,0,1,5,1015.49,On Time,No
+C00125,Premium,East,13,128.7,3,0,3,935.96,On Time,Yes
+C00126,Premium,East,25,140.1,0,0,0,938.82,On Time,Yes
+C00127,Basic,West,16,248.4,0,1,0,345.27,On Time,Yes
+C00128,Standard,West,70,284.7,1,0,2,636.12,On Time,No
+C00129,Standard,East,49,394.5,0,0,0,665.33,On Time,No
+C00130,Premium,West,47,260.7,0,1,2,990.71,On Time,No
+C00131,Basic,North,49,174.1,1,1,2,376.64,On Time,No
+C00132,Standard,North,33,,3,1,1,729.16,On Time,Yes
+C00133,Premium,North,50,99.0,0,3,0,1065.64,Late,Yes
+C00134,Premium,South,25,198.3,5,0,0,887.33,On Time,No
+C00135,Standard,South,17,276.6,2,1,1,595.67,On Time,No
+C00136,Standard,East,44,272.4,0,0,1,632.25,On Time,No
+C00137,Premium,South,36,164.3,0,1,2,4560.84,On Time,No
+C00138,Standard,West,20,190.1,2,0,1,705.27,On Time,No
+C00139,Basic,North,47,165.0,0,0,3,442.49,On Time,Yes
+C00140,Standard,West,3,376.9,1,1,0,810.83,On Time,No
+C00141,Premium,South,60,308.9,2,0,1,1059.43,On Time,Yes
+C00142,Standard,South,25,257.0,1,1,1,688.18,On Time,No
+C00143,Basic,West,12,196.8,4,1,0,364.32,On Time,Yes
+C00144,Basic,South,5,121.9,1,1,0,306.25,On Time,No
+C00145,Premium,West,21,271.7,0,1,1,971.77,On Time,No
+C00146,Basic,South,40,308.3,1,0,1,406.17,On Time,No
+C00147,Standard,West,65,71.6,1,0,0,742.99,On Time,No
+C00148,Premium,South,20,252.7,0,1,0,977.03,On Time,Yes
+C00149,Premium,East,47,377.9,0,2,0,1093.9,Late,No
+C00150,Standard,South,15,211.6,1,0,1,687.05,On Time,Yes
+C00151,Premium,South,32,184.8,0,0,1,1120.34,On Time,No
+C00152,Basic,West,44,224.6,0,0,0,297.37,On Time,No
+C00153,Premium,West,23,177.8,1,0,1,903.32,On Time,Yes
+C00154,Basic,West,52,211.9,0,0,0,332.54,On Time,No
+C00155,Premium,East,37,253.7,1,0,1,1054.04,On Time,No
+C00156,Premium,West,23,150.4,2,0,1,1047.26,On Time,Yes
+C00157,Premium,South,63,106.2,1,1,1,1064.57,On Time,No
+C00158,Standard,North,34,34.8,1,1,0,701.6,On Time,No
+C00159,Premium,South,35,200.8,1,0,1,1053.78,On Time,Yes
+C00160,Basic,South,51,178.7,1,0,0,351.72,On Time,No
+C00161,Basic,East,37,136.4,2,0,2,399.95,On Time,Yes
+C00162,Basic,West,27,248.5,1,0,1,425.52,On Time,No
+C00163,Standard,West,41,328.9,3,1,1,797.08,On Time,No
+C00164,Premium,North,52,170.6,1,0,2,1022.63,On Time,No
+C00165,Premium,West,68,202.2,1,1,1,868.15,On Time,Yes
+C00166,Standard,North,27,,1,0,2,672.49,On Time,No
+C00167,Premium,North,19,342.7,1,0,3,885.85,On Time,No
+C00168,Basic,West,63,458.8,0,0,0,414.98,On Time,No
+C00169,Premium,North,45,245.7,1,1,0,1085.96,On Time,Yes
+C00170,Standard,North,54,307.6,1,0,1,660.08,On Time,No
+C00171,Standard,East,4,156.2,4,0,2,626.93,On Time,Yes
+C00172,Premium,North,46,327.9,1,0,1,836.23,On Time,No
+C00173,Premium,West,23,257.2,0,0,0,959.39,On Time,No
+C00174,Basic,East,22,169.3,4,1,1,410.61,On Time,No
+C00175,Standard,East,5,157.0,1,1,2,719.76,On Time,No
+C00176,Premium,South,22,57.4,0,0,0,1065.12,On Time,Yes
+C00177,Premium,East,6,278.5,0,1,3,993.71,On Time,Yes
+C00178,Premium,East,5,204.3,1,0,0,997.51,On Time,Yes
+C00179,Premium,East,1,386.1,1,0,2,986.02,On Time,No
+C00180,Basic,West,10,279.5,0,0,0,438.69,On Time,Yes
+C00181,Basic,South,45,212.0,1,0,2,429.65,On Time,No
+C00182,Standard,South,32,303.3,3,2,1,721.17,Late,No
+C00183,Basic,South,48,155.1,0,1,1,363.04,On Time,Yes
+C00184,Premium,North,50,250.4,2,1,1,874.58,On Time,Yes
+C00185,Premium,South,17,,0,0,2,1088.49,On Time,No
+C00186,Basic,South,12,171.0,0,1,1,405.84,On Time,No
+C00187,Basic,South,22,188.2,4,0,1,359.18,On Time,No
+C00188,Basic,South,17,215.3,1,2,1,434.47,Late,Yes
+C00189,Premium,South,4,259.7,1,0,1,1029.53,On Time,No
+C00190,Premium,South,25,395.2,0,1,0,1238.54,On Time,No
+C00191,Premium,North,41,147.4,1,0,0,947.69,On Time,No
+C00192,Basic,East,33,176.5,2,0,2,439.08,On Time,No
+C00193,Basic,South,20,418.5,1,0,1,445.78,On Time,No
+C00194,Basic,North,31,126.8,1,1,2,431.96,On Time,No
+C00195,Premium,East,3,183.1,4,0,0,989.05,On Time,No
+C00196,Standard,North,67,457.0,1,0,4,684.17,On Time,No
+C00197,Basic,North,34,41.8,3,1,0,456.32,On Time,Yes
+C00198,Basic,North,8,99.3,4,0,0,387.99,On Time,Yes
+C00199,Basic,North,11,230.2,2,0,2,419.31,On Time,No
+C00200,Basic,South,4,282.7,2,0,1,411.46,On Time,Yes
+C00201,Basic,North,10,70.5,1,0,2,364.89,On Time,Yes
+C00202,Premium,West,37,69.1,0,0,2,998.7,On Time,No
+C00203,Basic,North,37,128.4,1,1,0,414.47,On Time,No
+C00204,Basic,West,61,333.7,0,1,0,389.54,On Time,No
+C00205,Basic,South,71,263.2,3,1,2,444.47,On Time,Yes
+C00206,Premium,South,42,324.8,1,1,1,890.28,On Time,No
+C00207,Premium,West,15,285.1,0,2,2,824.22,Late,No
+C00208,Basic,South,57,271.1,2,1,0,385.44,On Time,Yes
+C00209,Premium,East,8,44.3,0,0,1,1070.71,On Time,No
+C00210,Premium,East,67,,2,0,0,962.51,On Time,Yes
+C00211,Standard,West,10,112.5,2,1,2,731.93,On Time,Yes
+C00212,Standard,South,54,205.2,2,0,1,700.55,On Time,Yes
+C00213,Standard,West,35,325.4,1,0,0,659.65,On Time,No
+C00214,Basic,North,49,138.5,0,1,0,433.83,On Time,No
+C00215,Basic,South,55,332.0,2,1,1,401.83,On Time,No
+C00216,Standard,East,50,353.2,2,0,1,739.65,On Time,No
+C00217,Standard,South,30,162.0,3,0,1,655.59,On Time,Yes
+C00218,Standard,South,34,319.6,2,0,0,659.0,On Time,No
+C00219,Basic,North,23,0.0,0,0,1,388.12,On Time,Yes
+C00220,Standard,East,24,115.8,1,0,0,713.75,On Time,Yes
+C00221,Basic,South,40,278.4,1,0,1,397.16,On Time,No
+C00222,Premium,West,14,307.8,0,1,1,964.85,On Time,No
+C00223,Premium,East,70,242.5,1,1,3,925.87,On Time,Yes
+C00224,Premium,West,2,485.3,1,0,1,959.61,On Time,No
+C00225,Basic,South,14,153.4,2,0,2,357.32,On Time,No
+C00226,Basic,East,26,25.3,0,0,1,454.78,On Time,Yes
+C00227,Standard,South,38,308.4,2,1,0,805.34,On Time,Yes
+C00228,Premium,West,51,,0,0,0,887.25,On Time,No
+C00229,Standard,West,38,30.0,0,1,1,725.8,On Time,No
+C00230,Standard,West,31,93.5,1,2,1,744.1,Late,Yes
+C00231,Premium,North,49,318.0,0,0,1,948.24,On Time,No
+C00232,Basic,South,4,148.2,0,0,0,419.29,On Time,Yes
+C00233,Basic,East,63,135.2,0,2,0,402.16,Late,Yes
+C00234,Standard,West,6,248.3,2,1,1,696.07,On Time,No
+C00235,Standard,East,32,185.0,2,2,1,506.68,Late,Yes
+C00236,Standard,East,2,202.4,2,1,1,738.78,On Time,No
+C00237,Basic,East,46,380.2,1,2,0,441.69,Late,No
+C00238,Standard,East,31,403.8,2,1,0,826.38,On Time,No
+C00239,Standard,East,55,,1,0,2,596.62,On Time,Yes
+C00240,Premium,North,66,70.2,4,0,2,981.52,On Time,Yes
+C00241,Standard,South,5,,1,0,3,785.48,On Time,No
+C00242,Basic,West,13,123.5,0,1,0,399.24,On Time,No
+C00243,Premium,West,67,269.8,1,0,1,1119.78,On Time,No
+C00244,Standard,West,56,127.4,1,1,0,713.36,On Time,Yes
+C00245,Standard,South,16,112.3,1,1,1,699.27,On Time,Yes
+C00246,Standard,South,24,256.6,2,0,1,823.27,On Time,Yes
+C00247,Standard,North,47,151.6,2,0,0,657.45,On Time,No
+C00248,Premium,West,56,416.3,0,0,1,963.07,On Time,No
+C00249,Basic,West,8,262.5,0,0,1,343.83,On Time,No
+C00250,Premium,North,49,62.5,0,1,2,924.81,On Time,Yes
+C00251,Standard,North,7,57.0,4,0,3,805.39,On Time,Yes
+C00252,Basic,North,35,109.9,1,1,2,427.21,On Time,Yes
+C00253,Premium,South,14,289.8,2,1,1,1043.6,On Time,Yes
+C00254,Premium,West,14,253.0,2,0,1,872.04,On Time,No
+C00255,Premium,North,8,238.6,2,0,0,986.23,On Time,No
+C00256,Standard,West,16,387.9,0,1,1,588.77,On Time,No
+C00257,Standard,West,41,198.3,0,0,0,655.68,On Time,Yes
+C00258,Premium,South,68,232.8,0,0,2,1020.03,On Time,Yes
+C00259,Standard,West,36,188.1,1,0,0,767.27,On Time,No
+C00260,Premium,East,2,217.7,1,0,0,914.33,On Time,No
+C00261,Standard,East,15,222.2,1,0,1,657.71,On Time,No
+C00262,Premium,East,57,312.1,2,1,2,1003.31,On Time,Yes
+C00263,Basic,West,23,290.1,2,1,3,433.2,On Time,Yes
+C00264,Premium,West,11,416.9,1,0,0,969.17,On Time,Yes
+C00265,Standard,East,14,346.1,1,1,1,687.85,On Time,Yes
+C00266,Basic,North,36,373.9,0,1,1,363.39,On Time,Yes
+C00267,Standard,East,35,231.7,0,1,0,819.81,On Time,No
+C00268,Standard,North,2,244.7,1,1,1,798.66,On Time,No
+C00269,Standard,East,10,322.3,3,1,0,678.79,On Time,Yes
+C00270,Standard,South,20,345.3,1,1,1,766.43,On Time,No
+C00271,Premium,South,60,185.9,2,1,1,1017.01,On Time,No
+C00272,Standard,East,62,210.6,1,2,1,731.16,Late,Yes
+C00273,Standard,South,23,269.8,2,1,1,646.05,On Time,No
+C00274,Standard,South,52,173.2,1,2,0,628.94,Late,Yes
+C00275,Basic,West,45,276.5,0,0,1,354.49,On Time,Yes
+C00276,Standard,West,39,211.3,0,0,2,687.72,On Time,No
+C00277,Basic,South,11,191.4,1,0,0,463.15,On Time,No
+C00278,Premium,East,21,156.7,0,0,0,1036.41,On Time,No
+C00279,Basic,South,55,302.2,3,1,2,305.53,On Time,Yes
+C00280,Premium,West,48,238.2,1,1,0,1025.94,On Time,Yes
+C00281,Standard,East,6,212.8,1,2,0,649.86,Late,Yes
+C00282,Basic,East,53,209.1,2,2,0,461.6,Late,No
+C00283,Standard,West,29,296.3,1,1,0,616.99,On Time,No
+C00284,Standard,South,22,63.5,1,0,1,626.17,On Time,No
+C00285,Premium,West,25,322.9,3,1,1,981.39,On Time,No
+C00286,Basic,North,56,309.2,1,0,0,435.22,On Time,Yes
+C00287,Standard,North,32,0.0,1,0,0,610.36,On Time,No
+C00288,Standard,North,26,115.6,1,0,1,706.83,On Time,No
+C00289,Standard,North,32,274.7,1,1,0,726.65,On Time,No
+C00290,Basic,North,35,241.6,0,1,2,381.84,On Time,Yes
+C00291,Basic,South,54,251.1,0,0,1,422.61,On Time,No
+C00292,Standard,West,62,,3,0,0,710.3,On Time,Yes
+C00293,Premium,West,47,60.7,1,0,0,1090.63,On Time,No
+C00294,Premium,West,67,201.8,0,1,1,1266.48,On Time,No
+C00295,Standard,East,21,225.4,1,1,4,689.87,On Time,No
+C00296,Premium,East,14,309.5,1,1,1,981.27,On Time,Yes
+C00297,Standard,West,42,138.2,1,2,0,665.22,Late,No
+C00298,Standard,East,28,264.6,1,1,1,770.24,On Time,No
+C00299,Premium,East,1,279.3,1,0,0,1012.52,On Time,No
+C00300,Basic,East,41,255.5,1,0,0,374.52,On Time,No
+C00301,Premium,East,40,406.5,1,0,0,1121.99,On Time,No
+C00302,Premium,South,71,211.2,0,1,1,794.71,On Time,No
+C00303,Premium,West,12,307.6,2,0,1,883.82,On Time,Yes
+C00304,Premium,East,26,220.4,1,1,1,1057.25,On Time,Yes
+C00305,Basic,East,42,168.3,2,0,0,365.21,On Time,No
+C00306,Premium,South,63,0.0,2,0,2,949.31,On Time,Yes
+C00307,Premium,East,25,0.0,2,0,1,1089.3,On Time,No
+C00308,Premium,West,53,173.0,0,1,3,966.24,On Time,No
+C00309,Premium,East,19,206.4,1,1,1,1050.54,On Time,No
+C00310,Standard,East,58,,2,2,1,704.58,Late,No
+C00311,Premium,West,14,217.4,1,0,2,934.9,On Time,No
+C00312,Standard,West,52,252.0,2,0,1,644.24,On Time,No
+C00313,Basic,South,58,217.8,0,0,1,396.41,On Time,No
+C00314,Standard,South,54,277.5,0,1,1,782.06,On Time,Yes
+C00315,Basic,West,44,231.3,3,0,0,434.11,On Time,No
+C00316,Basic,North,29,340.3,1,0,3,385.05,On Time,No
+C00317,Standard,South,13,297.9,1,1,2,794.24,On Time,Yes
+C00318,Basic,West,29,254.9,1,1,2,397.05,On Time,Yes
+C00319,Standard,East,38,157.2,0,2,2,742.17,Late,No
+C00320,Standard,South,35,216.9,2,0,0,761.92,On Time,Yes
+C00321,Premium,North,21,,0,0,0,1092.39,On Time,No
+C00322,Standard,South,64,241.2,2,2,0,689.26,Late,Yes
+C00323,Basic,South,12,205.0,1,0,0,433.23,On Time,Yes
+C00324,Basic,West,15,239.6,3,1,1,412.3,On Time,Yes
+C00325,Premium,West,42,320.4,3,0,0,1004.54,On Time,No
+C00326,Standard,East,66,116.5,0,2,0,644.4,Late,No
+C00327,Premium,East,33,287.1,1,1,0,973.08,On Time,No
+C00328,Premium,North,54,260.3,2,0,1,990.08,On Time,Yes
+C00329,Premium,South,15,0.0,3,0,1,1047.61,On Time,Yes
+C00330,Standard,West,43,232.4,1,0,2,725.6,On Time,Yes
+C00331,Premium,North,25,120.4,0,1,1,1054.41,On Time,No
+C00332,Premium,North,31,244.1,3,3,2,987.29,Late,No
+C00333,Premium,East,38,325.3,3,1,0,901.73,On Time,Yes
+C00334,Premium,East,5,258.7,3,1,0,887.04,On Time,No
+C00335,Standard,West,47,266.5,1,2,3,749.47,Late,No
+C00336,Premium,South,33,0.0,0,1,0,911.19,On Time,No
+C00337,Basic,West,19,280.6,2,0,2,439.8,On Time,No
+C00338,Premium,East,5,208.1,1,0,0,946.69,On Time,No
+C00339,Basic,South,68,202.5,2,2,4,391.14,Late,Yes
+C00340,Basic,North,32,265.0,0,0,0,352.9,On Time,No
+C00341,Basic,North,22,217.0,0,1,0,463.34,On Time,No
+C00342,Premium,East,38,22.5,1,0,0,1136.6,On Time,No
+C00343,Premium,West,44,383.2,2,1,0,1046.49,On Time,No
+C00344,Premium,South,60,343.3,1,0,1,987.52,On Time,Yes
+C00345,Standard,East,9,316.0,3,0,1,683.87,On Time,Yes
+C00346,Standard,South,68,315.5,0,1,1,733.26,On Time,No
+C00347,Standard,South,4,278.6,1,1,1,737.83,On Time,Yes
+C00348,Basic,West,6,261.5,2,2,0,441.29,Late,Yes
+C00349,Premium,North,44,337.8,1,1,1,1050.66,On Time,No
+C00350,Standard,South,9,260.6,2,0,2,646.13,On Time,No
+C00351,Basic,South,40,97.6,1,0,1,440.48,On Time,No
+C00352,Basic,West,6,304.7,0,0,2,378.88,On Time,Yes
+C00353,Standard,West,9,218.8,2,0,2,734.91,On Time,Yes
+C00354,Standard,South,10,214.3,2,1,1,669.32,On Time,No
+C00355,Standard,South,63,401.4,1,1,0,743.44,On Time,No
+C00356,Standard,North,67,212.5,2,0,1,682.06,On Time,Yes
+C00357,Standard,North,14,340.2,3,2,0,673.55,Late,Yes
+C00358,Premium,North,36,130.5,2,1,2,976.03,On Time,No
+C00359,Standard,South,9,147.2,2,1,0,650.51,On Time,Yes
+C00360,Premium,North,21,184.0,1,0,0,1015.42,On Time,Yes
+C00361,Standard,West,46,240.6,1,1,3,614.73,On Time,No
+C00362,Standard,North,15,377.9,1,0,0,639.38,On Time,No
+C00363,Basic,West,30,16.3,1,1,2,478.52,On Time,Yes
+C00364,Standard,East,54,346.6,5,0,1,706.65,On Time,Yes
+C00365,Standard,South,16,256.7,2,1,2,751.56,On Time,Yes
+C00366,Standard,East,72,185.7,1,0,2,572.02,On Time,No
+C00367,Basic,South,68,101.0,5,0,0,422.9,On Time,No
+C00368,Standard,West,15,203.8,2,0,0,719.16,On Time,Yes
+C00369,Standard,North,31,30.1,2,0,0,678.94,On Time,No
+C00370,Premium,South,19,172.6,1,0,1,1067.41,On Time,No
+C00371,Premium,South,11,269.9,0,2,0,923.92,Late,Yes
+C00372,Standard,East,20,101.2,0,2,1,718.98,Late,No
+C00373,Basic,West,46,110.7,1,2,0,421.03,Late,Yes
+C00374,Standard,South,60,137.1,3,1,2,618.82,On Time,Yes
+C00375,Basic,North,13,111.5,2,1,1,393.24,On Time,Yes
+C00376,Premium,East,30,101.6,0,2,1,1116.01,Late,No
+C00377,Basic,East,26,271.0,1,1,0,2183.05,On Time,No
+C00378,Premium,East,66,375.2,2,0,1,922.51,On Time,Yes
+C00379,Standard,East,36,274.1,2,0,2,663.27,On Time,No
+C00380,Basic,North,57,176.9,0,0,1,334.39,On Time,No
+C00381,Standard,South,20,52.9,2,1,2,717.82,On Time,Yes
+C00382,Premium,South,13,177.5,2,0,1,996.82,On Time,No
+C00383,Premium,East,10,169.6,1,0,0,1050.6,On Time,Yes
+C00384,Premium,West,7,60.9,1,0,2,1037.13,On Time,Yes
+C00385,Standard,South,15,381.2,1,0,2,578.82,On Time,No
+C00386,Basic,South,39,140.8,1,0,2,361.74,On Time,Yes
+C00387,Standard,North,28,98.5,2,0,0,542.08,On Time,Yes
+C00388,Premium,South,4,232.3,1,2,3,996.77,Late,No
+C00389,Premium,West,1,153.4,4,1,2,982.96,On Time,Yes
+C00390,Premium,West,31,253.6,3,0,0,989.46,On Time,Yes
+C00391,Premium,North,7,0.0,1,0,1,859.82,On Time,Yes
+C00392,Standard,South,12,153.7,1,0,1,675.81,On Time,No
+C00393,Basic,West,50,260.9,2,1,2,355.82,On Time,No
+C00394,Standard,West,4,185.7,2,0,5,677.58,On Time,Yes
+C00395,Standard,West,54,290.8,1,2,2,742.4,Late,Yes
+C00396,Basic,East,54,214.2,3,0,2,480.29,On Time,No
+C00397,Standard,East,69,290.6,1,1,2,708.23,On Time,No
+C00398,Standard,East,18,195.2,0,0,0,619.21,On Time,No
+C00399,Premium,East,29,177.1,1,2,2,899.18,Late,Yes
+C00400,Premium,West,58,262.1,3,2,1,1050.4,Late,No
+C00401,Premium,South,56,236.7,3,2,0,913.61,Late,Yes
+C00402,Standard,South,37,179.6,0,0,3,825.19,On Time,No
+C00403,Premium,North,39,,2,1,0,1029.58,On Time,Yes
+C00404,Premium,South,4,229.4,2,0,2,901.0,On Time,Yes
+C00405,Standard,West,33,55.4,0,1,0,708.51,On Time,No
+C00406,Basic,North,10,169.4,0,1,1,437.3,On Time,No
+C00407,Basic,West,70,230.6,1,0,0,427.15,On Time,No
+C00408,Basic,South,11,254.2,2,0,3,352.35,On Time,Yes
+C00409,Standard,West,63,243.9,4,0,0,673.63,On Time,No
+C00410,Premium,West,56,207.6,1,0,2,1134.31,On Time,Yes
+C00411,Premium,East,17,237.7,2,0,1,1105.47,On Time,No
+C00412,Standard,South,14,363.6,1,2,2,695.17,Late,No
+C00413,Basic,West,59,115.0,3,0,0,331.64,On Time,Yes
+C00414,Premium,North,20,309.6,2,0,0,1098.18,On Time,No
+C00415,Standard,West,1,175.9,3,0,1,662.2,On Time,No
+C00416,Standard,West,15,152.6,2,1,0,706.53,On Time,Yes
+C00417,Basic,South,40,150.1,2,0,0,329.46,On Time,No
+C00418,Premium,East,24,172.6,1,0,2,1012.05,On Time,No
+C00419,Premium,West,1,232.0,1,1,0,1037.32,On Time,Yes
+C00420,Basic,South,15,285.3,3,0,1,1625.47,On Time,Yes
+C00421,Basic,East,17,102.1,2,2,0,410.8,Late,Yes
+C00422,Standard,West,47,277.8,0,1,1,697.24,On Time,No
+C00423,Premium,South,67,312.5,0,0,1,937.27,On Time,No
+C00424,Premium,East,2,156.6,1,0,0,901.17,On Time,Yes
+C00425,Basic,West,6,148.6,1,0,2,409.96,On Time,Yes
+C00426,Basic,North,68,378.1,0,1,1,500.64,On Time,Yes
+C00427,Basic,West,30,307.4,1,1,0,376.57,On Time,No
+C00428,Standard,West,50,289.1,2,1,1,798.56,On Time,Yes
+C00429,Standard,North,19,331.3,2,1,1,727.48,On Time,Yes
+C00430,Standard,South,58,365.5,1,2,1,755.6,Late,No
+C00431,Premium,West,48,183.6,2,2,1,1064.67,Late,No
+C00432,Standard,South,43,113.2,2,1,1,612.23,On Time,Yes
+C00433,Basic,West,71,212.5,5,2,1,432.32,Late,Yes
+C00434,Basic,South,8,176.7,0,1,1,445.08,On Time,Yes
+C00435,Standard,West,45,188.5,1,0,0,586.86,On Time,No
+C00436,Premium,South,72,99.8,2,2,1,1035.24,Late,Yes
+C00437,Basic,South,70,263.4,2,2,1,478.29,Late,Yes
+C00438,Premium,West,61,213.5,2,0,2,865.89,On Time,No
+C00439,Standard,South,33,281.8,0,1,1,519.93,On Time,Yes
+C00440,Standard,East,6,106.9,1,1,0,676.57,On Time,Yes
+C00441,Premium,North,29,247.0,1,1,1,1217.99,On Time,No
+C00442,Standard,North,4,40.3,2,0,1,780.45,On Time,Yes
+C00443,Premium,West,15,122.1,0,0,0,1006.6,On Time,No
+C00444,Standard,West,5,313.9,0,0,2,816.59,On Time,No
+C00445,Basic,South,5,96.4,2,0,3,345.92,On Time,Yes
+C00446,Basic,North,69,488.5,0,0,2,396.85,On Time,No
+C00447,Basic,East,44,218.1,1,1,1,349.0,On Time,No
+C00448,Premium,West,37,290.6,1,0,2,1039.31,On Time,No
+C00449,Premium,West,18,176.3,0,0,2,1029.97,On Time,No
+C00450,Premium,East,1,283.5,0,1,0,942.06,On Time,Yes
+C00451,Basic,West,5,296.9,1,1,0,459.19,On Time,Yes
+C00452,Premium,East,48,149.8,0,1,0,996.53,On Time,No
+C00453,Premium,North,1,182.3,1,0,2,992.62,On Time,No
+C00454,Premium,West,11,234.5,2,0,0,1226.24,On Time,Yes
+C00455,Standard,North,33,174.2,1,0,0,694.76,On Time,Yes
+C00456,Basic,North,71,,0,1,3,340.37,On Time,No
+C00457,Standard,South,26,146.4,2,1,2,652.22,On Time,Yes
+C00458,Premium,West,41,112.0,0,0,0,989.66,On Time,Yes
+C00459,Premium,South,13,232.6,5,0,0,829.32,On Time,Yes
+C00460,Premium,South,19,237.7,0,1,0,976.3,On Time,No
+C00461,Standard,South,12,37.3,3,0,2,609.06,On Time,Yes
+C00462,Premium,South,2,216.5,1,0,0,801.89,On Time,Yes
+C00463,Premium,West,21,337.3,1,0,0,995.55,On Time,No
+C00464,Basic,East,12,273.0,0,2,2,332.6,Late,Yes
+C00465,Standard,North,71,192.3,4,1,0,620.51,On Time,No
+C00466,Basic,South,2,232.6,0,0,1,456.39,On Time,No
+C00467,Standard,South,68,144.9,2,0,1,697.21,On Time,No
+C00468,Standard,West,72,339.5,0,2,1,737.2,Late,Yes
+C00469,Basic,West,17,133.4,0,0,0,432.28,On Time,No
+C00470,Standard,East,53,145.0,1,1,2,675.73,On Time,Yes
+C00471,Standard,South,42,99.1,0,1,0,690.46,On Time,No
+C00472,Basic,West,41,,2,0,1,396.61,On Time,No
+C00473,Premium,North,17,317.6,2,2,1,1008.6,Late,Yes
+C00474,Basic,West,42,160.1,2,0,2,392.0,On Time,Yes
+C00475,Standard,South,36,310.2,1,0,0,612.96,On Time,No
+C00476,Premium,West,42,155.5,3,0,0,1033.49,On Time,Yes
+C00477,Standard,North,23,272.0,3,2,0,784.69,Late,Yes
+C00478,Premium,South,62,245.1,0,1,1,1070.49,On Time,No
+C00479,Premium,North,45,338.3,1,0,0,933.95,On Time,No
+C00480,Basic,West,8,,1,1,2,429.82,On Time,Yes
+C00481,Basic,North,45,136.0,0,0,4,317.69,On Time,No
+C00482,Standard,East,6,353.6,1,0,0,766.88,On Time,No
+C00483,Standard,South,44,84.5,1,2,2,746.69,Late,Yes
+C00484,Basic,West,52,10.1,0,1,1,1477.805,On Time,No
+C00485,Basic,East,35,152.6,1,0,0,430.39,On Time,No
+C00486,Basic,South,11,321.9,0,0,0,429.85,On Time,No
+C00487,Premium,North,33,258.6,2,1,2,990.6,On Time,Yes
+C00488,Standard,North,10,321.5,0,1,0,663.19,On Time,No
+C00489,Premium,East,47,,0,0,2,1156.51,On Time,No
+C00490,Premium,South,13,209.3,0,0,1,1082.96,On Time,No
+C00491,Premium,West,11,183.8,3,0,0,970.37,On Time,No
+C00492,Standard,East,6,298.0,0,0,0,711.87,On Time,No
+C00493,Standard,North,44,297.6,0,0,0,658.89,On Time,No
+C00494,Premium,North,27,365.3,1,1,0,873.39,On Time,No
+C00495,Standard,South,8,104.6,1,0,1,720.84,On Time,Yes
+C00496,Standard,East,40,152.3,1,0,0,760.22,On Time,No
+C00497,Premium,North,10,284.7,1,2,0,1112.2,Late,Yes
+C00498,Basic,South,55,165.4,1,0,1,385.93,On Time,No
+C00499,Standard,West,57,123.5,1,0,0,751.87,On Time,No
+C00500,Premium,South,26,102.5,2,1,0,1032.15,On Time,Yes
+C00371,Premium,South,11,269.9,0,2,0,923.92,Late,Yes
+C00257,Standard,West,41,198.3,0,0,0,655.68,On Time,Yes
+C00125,Premium,East,13,128.7,3,0,3,935.96,On Time,Yes
+C00321,Premium,North,21,,0,0,0,1092.39,On Time,No
+C00323,Basic,South,12,205.0,1,0,0,433.23,On Time,Yes
+C00195,Premium,East,3,183.1,4,0,0,989.05,On Time,No
+C00277,Basic,South,11,191.4,1,0,0,463.15,On Time,No
+C00380,Basic,North,57,176.9,0,0,1,334.39,On Time,No
